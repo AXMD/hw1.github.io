@@ -299,6 +299,7 @@ ul{
 	padding-right: 145px;
 	padding-left: 145px;
 	box-sizing: border-box;
+	background-color: #fcfcfc;
 }
 .buy_it_now h2{
 	font-family: Arial;
@@ -308,4 +309,97 @@ ul{
 	line-height: 36px;
 	text-align: left;
 	margin: 50px 420px 29px 420px;
+}
+.buy{
+	width: 100%;
+	min-height: 499px;
+	margin-bottom: 50px;
+}
+.standart{
+	width: 300px;
+	height: 306px;
+	background-color: #3F4F63;
+	position: relative;
+	display: inline-block;
+	margin-top: 195px;
+	float: left;
+	border: 1px solid #3F4F63;
+}
+.price_box{
+	width: 300px;
+	height: 71px;
+	background-color: #fcfcfc;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	left: 0;
+	line-height: 71px;
+	text-align: center;
+	font-family: Arial;
+	color:  #445162;
+	font-size: 40px;
+	font-weight: 400;
+}
+.standart h4, .lux h4, .premium h4{
+	font-family: Arial;
+	color:  #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	display: block;
+	margin-bottom: 17px;
+	margin-top: 16px;
+}
+.standart_features{
+	font-family: Arial;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	margin-top: 107px;
+}
+.buy_button{
+	border-radius: 5px;
+	background-color:  #ffffff;
+	width: 260px;
+	height: 40px;
+	margin: 19px 20px 0 20px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	font-family: Arial;
+	color:  #445161;
+	font-size: 18px;
+	font-weight: 700;
+}
+.lux{
+	width: 300px;
+	height: 499px;
+	background-color: #3F4F63;
+	position: relative;
+	display: inline-block;
+	float: right;
+	border: 1px solid #3F4F63;
+}
+.premium{
+	width: 300px;
+	height: 404px;
+	background-color: #3F4F63;
+	position: relative;
+	display: inline-block;
+	margin-top: 95px;
+	margin-left: 45px;
+	border: 1px solid #3F4F63;
+}
+.standart_features1{
+	font-family: Arial;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	margin-top: 107px;
+	margin-bottom: -7px;
 }
